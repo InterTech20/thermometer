@@ -266,7 +266,20 @@ color: #dadada;
 
 }
 
+/*  anime arrow-right*/
+.modal_exit:hover .fa-arrow-right{
+  transition: 1s ease-in-out;
+  animation: anime 2s infinite;
+} 
 
+@keyframes anime {
+  to{
+transform: translateX(10px);
+  }from{
+    transform: translateX(0px);
+  }
+}
+/*  end anime arrow-right*/
 
 .modal_icon{
   display: flex;
