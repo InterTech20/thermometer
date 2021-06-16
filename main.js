@@ -40,7 +40,7 @@ window.addEventListener("load", () => {
    function modal_save(){
 
 
-      document.getElementById("modal_save").style = "display: flex;";
+      document.getElementById("modal_save").classList.add('active');
       document.getElementById("modal_save").innerHTML = `
       <!-- modal social -->
 
@@ -63,6 +63,6 @@ window.addEventListener("load", () => {
   }
   
   function exit_modal() {
-          document.getElementById("modal_save").style = "display: none;";
+         document.getElementById("modal_save").classList.remove('active');
   }
    
