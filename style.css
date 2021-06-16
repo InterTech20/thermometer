@@ -44,8 +44,7 @@ body{
   width: 30px;
   height: 1.5px;
   margin-top: 5px;
-  background: #dadada;
-  
+  background: #dadada; 
 }
 
 .chart-x{
@@ -61,8 +60,8 @@ body{
 }
 
  .chart-x::before{
- content: '';
- position: static; 
+  content: '';
+  position: static; 
   width: 35px;
   height: 35px;
   background: #dadada;
@@ -98,7 +97,7 @@ body{
 }
 
 .chart-x>span:nth-child(2),
-span:nth-child(3){
+.chart-x>span:nth-child(3){
   background: #117df0;
 } 
 
@@ -114,25 +113,21 @@ span:nth-child(3){
 }
 
 .chart-x>span:nth-child(2){
-  overflow: hidden;
   animation: anime1 16s ease-out;  
   animation: translate1 16s ease-in-out;
 }
 
 .chart-x>span:nth-child(3){
-  overflow: hidden;
   animation: anime1 12s ease-out;
   animation: translate1 12s ease-in-out;
 }
 
 .chart-x>span:nth-child(4){
-  overflow: hidden;
   animation: anime1 6s ease-out;
   animation: translate1 6s ease-in-out;
 }  
 
 .chart-x>span:nth-child(5){
-  overflow: hidden;
   animation: anime1 2s ease-in-out;  
   animation: translate1 4s ease-in-out;
 }  
