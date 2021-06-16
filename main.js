@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
      setTimeout(() => {
         document.querySelector('.fas').classList.replace('fa-thermometer-quarter','fa-thermometer-half'); 
         document.querySelector('#temp').textContent='-18°';
-        document.querySelector('.#temp_text').textContent='Muy bien';
+        document.querySelector('#temp_text').textContent='Muy bien';
         document.querySelector('.icon_thermometer').style="color:#063d98;";  
         document.querySelector("#temp").style="color:#063d98;"; 
      }, 6000);
