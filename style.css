@@ -320,3 +320,13 @@ body{
     font-size: 12px;
 }
 /*end modal*/
+
+@media only screen  and (min-width: 320px) and (max-width: 992px) and (orientation: landscape) {
+    html {
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      right: 20%;
+      bottom: -370px;
+    }
+  }
