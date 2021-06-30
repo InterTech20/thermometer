@@ -2,7 +2,7 @@ let temp=document.querySelector('#temp').innerHTML;
 
 window.addEventListener("load", () => {
     setTimeout(() => {
-        function  dibujaTemp(temp);
+       dibujaTemp(temp);
      }, 2000);
 });
 
